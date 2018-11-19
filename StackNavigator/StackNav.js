@@ -26,6 +26,7 @@ class StackNav extends React.Component{
 
 
 const RootStack = createStackNavigator(
+
   {
 
   Electronics: {  screen: Electronics },
@@ -35,7 +36,8 @@ const RootStack = createStackNavigator(
 },
 {
   initialRouteName: 'Electronics'
-}
+},
+
 
 );
 

@@ -3,12 +3,15 @@ import {Text, StyleSheet, Button, View} from 'react-native';
 
 class Electronics extends React.Component
 {
-    static navigationOptions = ({ navigation, navigationOptions }) => {
-    return {
-     title: `${navigation.state.routeName}`,
-     headerTitleStyle: {flex: 1, textAlign: 'center'},
-    };
+
+  static navigationOptions = ({ navigation, navigationOptions }) => {
+  return {
+
+   title: `${navigation.state.routeName}`,
+   headerTitleStyle: {flex: 1, textAlign: 'center'},
+  };
 }
+
   state={
     visible: false,
     category: ["Show", "Hide"],
